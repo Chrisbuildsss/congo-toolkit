@@ -1,4 +1,4 @@
-// `gocongo skills`: installs /congo and /congo-compete for the
+// `gocongo skills`: installs /congo and /congo-brainstorm for the
 // person's own AI: Claude Code (~/.claude/skills), Codex (~/.agents/skills) or Cursor (~/.cursor/skills).
 // Existing copies are moved to a dated backup beside the skills folder first, never deleted.
 import fs from 'node:fs';
@@ -7,8 +7,8 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
-export const SKILLS = ['congo', 'congo-compete'];
-const RETIRED_SKILLS = ['congo-redesign', 'congo-ideas'];
+export const SKILLS = ['congo', 'congo-brainstorm'];
+const RETIRED_SKILLS = ['congo-redesign', 'congo-ideas', 'congo-compete'];
 export const TOOLS = {
   claude: {label: 'Claude Code', root: '.claude'},
   codex: {label: 'Codex', root: '.agents', marker: '.codex'},
@@ -17,8 +17,8 @@ export const TOOLS = {
 export const SKILLS_USAGE = `Usage: gocongo skills [--claude] [--codex] [--cursor] [--all] [--json]
 
 Installs the Congo skills for your own AI:
-/congo          Build or redesign a frontend
-/congo-compete  Research product ideas and find working app references
+/congo             Build or redesign a frontend
+/congo-brainstorm  Brainstorm what to build using the Congo Library
   --claude   Claude Code (~/.claude/skills)
   --codex    Codex (~/.agents/skills)
   --cursor   Cursor (~/.cursor/skills)

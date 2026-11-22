@@ -40,7 +40,7 @@ with Ctrl+C before running more commands.
 Run `npx gocongo skills` for Claude Code, Codex or Cursor and start a new chat.
 Ask naturally. “Add a Handbooks page to my Minus app” uses **Congo** to inspect
 the project and find a fitting screen. “What could I build from the Congo
-catalog?” uses **Congo Compete** to research ideas grounded in working apps.
+catalog?” uses **Congo Brainstorm** to research ideas grounded in working apps.
 
 Run `npx gocongo workspace` to browse Explore. Select an app or a screen and
 say “Use my Congo selection.” When you ask for design options, your AI can show

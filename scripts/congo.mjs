@@ -11,13 +11,13 @@ import net from 'node:net';
 import {spawn} from 'node:child_process';
 const sha=b=>createHash('sha256').update(b).digest('hex');
 export const safeRelative=p=>typeof p==='string'&&p.length<1024&&!/[\\:\x00-\x1f]/.test(p)&&p.split('/').every(s=>s&&s!=='.'&&s!=='..'&&!/[. ]$/.test(s)&&!/^\.(?:git|env|codex|agents)(?:\.|$)/i.test(s)&&!/^(?:con|prn|aux|nul|com\d|lpt\d)(?:\.|$)/i.test(s));
-export const CLI_VERSION='0.6.0';
+export const CLI_VERSION='0.6.1';
 export const DEFAULT_REGISTRY='https://gocongo.ai';
 const USAGE=`Congo ${CLI_VERSION}
 Usage: congo COMMAND [options]
 
   workspace            Open Explore or show reference directions in Canvas
-  skills               Install Congo and Congo Compete for Claude Code, Codex or Cursor
+  skills               Install Congo and Congo Brainstorm for Claude Code, Codex or Cursor
   login                Sign in in your browser
   logout               Revoke and remove this registry's saved sign-in
   whoami               Show your signed-in account and source subscription

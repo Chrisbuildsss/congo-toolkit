@@ -67,7 +67,7 @@ You can also browse the library yourself in Explore and select references for yo
 
 When you’re ready, continue building in your existing AI conversation.
 
-### Discover what to build with Congo Compete
+### Discover what to build with Congo Brainstorm
 
 Congo can also help you explore business and product opportunities based on the apps in its library.
 
@@ -110,11 +110,11 @@ The skill can be useful for new applications, feature development, redesigns, an
 
 [View the Congo skill](packages/cli/skills/congo/SKILL.md)
 
-### Congo Compete
+### Congo Brainstorm
 
 **Turn existing app clones into new product opportunities.**
 
-Congo Compete helps your AI explore what’s possible to build from the applications in the Congo library.
+Congo Brainstorm helps your AI explore what’s possible to build from the applications in the Congo library.
 
 It can:
 
@@ -125,9 +125,9 @@ It can:
 - Use Canvas to compare concepts and supporting references.
 - Connect an idea to the Congo templates and screens that could help build it.
 
-When you’re ready to start building, Congo Compete works alongside the main Congo skill to carry the selected concept into implementation.
+When you’re ready to start building, Congo Brainstorm works alongside the main Congo skill to carry the selected concept into implementation.
 
-[View Congo Compete](packages/cli/skills/congo-compete/SKILL.md)
+[View Congo Brainstorm](packages/cli/skills/congo-brainstorm/SKILL.md)
 
 ## Getting started
 

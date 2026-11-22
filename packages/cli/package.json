@@ -1,6 +1,6 @@
 {
   "name": "gocongo",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Congo's app clone library for your AI: free reference screenshots, the Congo workspace and skills, and the code of every screen and app.",
   "type": "module",
   "bin": {

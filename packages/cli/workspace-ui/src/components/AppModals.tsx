@@ -23,7 +23,7 @@ export function AboutModal({
         </div>
         <p>
           Browse apps and screens in Explore or compare directions in Canvas. Use Congo to build
-          or redesign, and Congo Compete to research product ideas.
+          or redesign, and Congo Brainstorm to research product ideas.
         </p>
         <p className="about-fine">
           Inter by Rasmus Andersson (SIL Open Font License 1.1). Dependency notices ship with

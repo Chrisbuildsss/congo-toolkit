@@ -1,17 +1,17 @@
 ---
-name: congo-compete
-description: "Use when the user wants to explore what they could build from a Congo app or the catalog, or find a differentiated alternative to an existing product using Congo as a starting point."
+name: congo-brainstorm
+description: "Use when the user wants to brainstorm software ideas, explore what they could build or adapt using Congo’s app clones and UI templates, discover new product opportunities, or develop competing and specialized versions of existing applications."
 license: MIT
 user-invocable: true
 argument-hint: "[app, product, audience, or workflow]"
 ---
 
-# Congo Compete
+# Congo Brainstorm
 
-Use working apps in the Congo Library to think through what could become a
-different product. A template gives you something concrete to reason about:
-the work it already supports, how its screens fit together, and what a new
-audience would need it to do differently.
+Use working apps in the Congo Library to explore what the user could build
+or adapt. Look at what an app already does, which parts could carry over,
+and what would need to change for the idea to work. Draw from several apps
+when their workflows help explain the idea.
 
 ## Start with what’s real
 
