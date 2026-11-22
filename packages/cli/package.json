@@ -1,0 +1,31 @@
+{
+  "name": "gocongo",
+  "version": "0.6.0",
+  "description": "Congo's app clone library for your AI: free reference screenshots, the Congo workspace and skills, and the code of every screen and app.",
+  "type": "module",
+  "bin": {
+    "congo": "bin/congo.mjs",
+    "gocongo": "bin/congo.mjs"
+  },
+  "engines": {
+    "node": ">=22.20.0"
+  },
+  "files": [
+    "bin/congo.mjs",
+    "dist/congo.mjs",
+    "dist/congo-version-range.mjs",
+    "dist/congo-workspace.mjs",
+    "dist/congo-skills.mjs",
+    "dist/workspace-ui/",
+    "skills/"
+  ],
+  "license": "MIT",
+  "homepage": "https://gocongo.ai/guides",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "prepack": "node ../../scripts/prepare-cli-package.mjs"
+  }
+}
