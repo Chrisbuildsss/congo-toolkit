@@ -9,7 +9,7 @@
 
 **Make your AI build smarter with Congo.**
 
-Open-source skills for coding agents that help your coding agent intelligently use Congo’s library of app clones, UI templates, and design references to build, extend, and explore software.
+Open-source skills for that help your coding agent intelligently use Congo’s library of app clones, UI templates, and design references to build, extend, and explore software.
 
 Congo gives your AI more than a collection of resources. It teaches your agent how to make use of them.
 
